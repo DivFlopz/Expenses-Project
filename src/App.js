@@ -39,11 +39,12 @@ const App = () => {
   };
 
   return (
+    // Comentario prueba
     <div>
       <h2>Expense Tracker</h2>
       <NewExpense onAddExpense={addExpenseHandler}/>
       <Expenses items={expenses}/>
-
+      
     </div>
   );
 }
